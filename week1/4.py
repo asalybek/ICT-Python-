@@ -1,0 +1,5 @@
+print("Width of the field (feet) : ")
+width = float(input())
+print("Length of the field (feet) : ")
+length = float(input())
+print("Area of the room (acre) : " + str(width*length/43.560))

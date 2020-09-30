@@ -1,0 +1,5 @@
+celsius = float(input("Temperature(C): "))
+kelvin = float(celsius + 273.15)
+fahrenheit = float(celsius * 9/5 + 32)
+print("Temperature(K):", format(round(kelvin, 2)))
+print("Temperature(°F):", format(round(fahrenheit, 2)))

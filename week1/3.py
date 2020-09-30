@@ -1,0 +1,5 @@
+print("Width of the room (meter) : ")
+width = float(input())
+print("Length of the room (meter) : ")
+length = float(input())
+print("Area of the room (meter^2) : " + str(width*length))
